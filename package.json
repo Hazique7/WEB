@@ -1,4 +1,4 @@
-{
+{"homepage": "http://Hazique7.github.io/WEB",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -10,13 +10,21 @@
     "@types/node": "^16.18.22",
     "@types/react": "^18.0.31",
     "@types/react-dom": "^18.0.11",
+    "@types/react-router-hash-link": "^2.4.5",
+    "antd": "^5.3.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-fast-marquee": "^1.3.5",
+    "react-player": "^2.12.0",
+    "react-router-dom": "^6.9.0",
+    "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }

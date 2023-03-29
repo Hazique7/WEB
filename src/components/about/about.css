@@ -1,0 +1,11 @@
+p{
+    color: #386166;
+    
+}
+.about > h1{
+   color:  #386166;
+}
+.about{
+    overflow: hidden;
+    width: 100%;
+}

@@ -1,0 +1,28 @@
+.div-form{
+    margin-top: 60PX;
+    display: none;
+    height: 100px;
+    width: 600px;
+    margin-left: 260px;
+    background-color: #aff6b500;
+    
+}
+.app-form{
+    transition: 2s;
+    background-color: #5bed687d;
+    box-shadow: none;
+}
+
+.app-form:hover{
+    transition-duration: .41s;
+   transition: .42s;
+    background-color: #5bed687d;
+    box-shadow: 10px 10px 5px 12px rgba(50, 52, 52, 0.183);
+    
+}
+.ant-form-item .ant-form-item-label >label {
+    color: #2f4f4f
+}
+.app-form > h1{
+    color: #2f4f4f;
+}
